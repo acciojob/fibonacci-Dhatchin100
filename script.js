@@ -20,6 +20,7 @@ if(num==1)
 				num2=sum;
 				i+=1;
 			}
+		console.log(sum);
 	}
 }
 
