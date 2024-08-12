@@ -1,9 +1,9 @@
 function fibonacci(num) {
-if(num==0)
+if(num==1)
 {
 	return 0;
 }
-	else if(num==1)
+	else if(num==2)
 	{
 		return 1
 	}
@@ -11,6 +11,7 @@ if(num==0)
 	{
 		let num1=0;
 		let num=2;
+		let sum=0;
 		let i=2;
 		while(i<num)
 			{
